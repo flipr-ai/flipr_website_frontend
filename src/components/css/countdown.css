@@ -1,0 +1,59 @@
+.countdown-cl{
+  width: 100%;
+  max-width: 24%;
+}
+.count-top{
+  height: 400px;
+  padding:90px;
+}
+.banner-button button{
+  margin-right:20px;
+  color:#fff;
+  background-color:#000;
+  font-weight: 600;
+}
+.count-top{
+  background-color:#f5f5f5;
+}
+.FlipClock .flipUnitContainer .ContainerTitle {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.FlipClock .divider{
+    display: none;
+}
+.banner-text h4{
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.banner-text h2{
+  margin-top: 40px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.banner-text{
+  margin-left:10px;
+}
+.banner-button{
+  display: inline-flex;
+}
+@media(max-width:767px){
+  .countdown-cl{
+    width:100%;
+    max-width: 100%;
+  }
+  .banner-text{
+    margin-left: 0;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .countdown-cl {
+      width: 100%;
+      max-width: 46%;
+  }
+}

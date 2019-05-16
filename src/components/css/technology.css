@@ -1,0 +1,40 @@
+.tech-cl{
+  background: #ddd;
+ margin-top:15px;
+}
+.header-text p{
+    margin-left:4px;
+}
+.tech-header{
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.tech-list-cl{
+  margin-bottom:60px;
+}
+.tech-list-cl img{
+  height: 100px;
+}
+.tech-list-cl .col-md-3{
+  text-align: center;
+}
+
+@media(max-width:767px){
+  .tech-list-cl img{
+    margin-bottom:20px;
+  }
+  .tech-list-cl{
+    margin-bottom:22px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .tech-list-cl img{
+    margin-bottom:20px;
+  }
+  .tech-list-cl{
+    margin-bottom:22px;
+  }
+  .header-text{
+    text-align: center;
+  }
+}

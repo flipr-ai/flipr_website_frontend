@@ -1,0 +1,24 @@
+.logo-cl{
+   width: 82px;
+   height: 40px;
+ }
+ .navbar-brand{
+   padding:5px 86px;
+ }
+ .navbar {
+     position: relative;
+     min-height: 70px;
+     margin-bottom: 0px;
+     border: 1px solid transparent;
+ }
+ .header-top-cl{
+    padding:10px;
+    background-color:#fff;
+ }
+ .navbar-default .navbar-nav>li>a {
+    color: #000;
+    font-weight: 600;
+}
+.navbar-nav{
+    padding-right:50px;
+}

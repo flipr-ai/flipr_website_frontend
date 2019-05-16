@@ -1,0 +1,23 @@
+.socialMedia-cl{
+  background:#ddd;
+  padding-bottom:50px;
+}
+.socialmedia-link-cl i{
+  font-size: 14px;
+  color: #fff;
+  background: #000;
+  border-radius: 50px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-right:15px;
+}
+@media(max-width:767px){
+  .socialmedia-link-cl{
+    text-align: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.socialmedia-link-cl{
+  text-align: center;
+}
+}

@@ -3,8 +3,10 @@
   max-width: 24%;
 }
 .count-top{
-  height: 400px;
-  padding:90px;
+  height: 500px;
+    padding-top: 140px;
+    padding-left: 90px;
+    background-image: url("../images/slideimage.jpg");
 }
 .banner-button button{
   margin-right:20px;
@@ -47,8 +49,11 @@
     max-width: 100%;
   }
   .banner-text{
-    margin-left: 0;
+    margin-left: 15px;
     width: 100%;
+  }
+  .count-top{
+    padding-left: 34px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {

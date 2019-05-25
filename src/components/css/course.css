@@ -1,5 +1,15 @@
 .course-header{
    margin-top: 30px;
+   width: 100%;
+   padding-left: 70px;
+   padding-right: 70px;
+}
+.enroll-btn button {
+    margin-right: 20px;
+    width: 170px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 600;
 }
 .header-text p{
     margin-left:4px;
@@ -12,7 +22,22 @@
     margin-bottom:30px;
   }
 .course-back-cl{
-    background-color: #f5f5f5;
+    background-image:url("../images/rectangle-img.svg");
+    background-size: cover;
+    background-position: 0 0px;
+    padding: 100px 0 200px 0;
+}
+.back-head h4{
+  font-size:18px;
+  font-weight: 600;
+}
+.back-head{
+  margin-top:50px;
+}
+.enroll-btn {
+    margin-top: -32px;
+    position: absolute;
+    margin-left: 34px;
 }
 .background-cl{
   background-color: #fff;
@@ -22,16 +47,13 @@
   width: 256px;
   height: 270px;
 }
-.enroll-btn{
-  text-align: center;
-  margin-top: 15px;
-}
 .flip-card-back h3{
   margin-top:200px;
   font-size:36px;
 }
 .flip-card-inner .fullstack{
-  background-color:#e87558;
+  background-color:#1f28cf;
+  opacity: 0.8;
 }
 .flip-card-inner .frontend{
   background-color:#2f4a55;
@@ -51,14 +73,20 @@
   color:#fff;
   opacity: 1;
 }
-.enroll-btn button{
-  color: #000;
-  font-size: 16px;
-  background-color: #fff;
-}
+
 .enroll-btn button:hover{
-  background-color:#ddd;
+  background-color:#f8e71c;
+  color:#000;
+}
+.controls .btn-success:focus{
+  background-color:#02c2b2;
   color:#fff;
+  border: 1px solid #02c2b2;
+}
+.controls .btn-success:active{
+  background-color:#02c2b2;
+  color:#fff;
+  border: 1px solid #02c2b2;
 }
 .background-cl h3{
   font-size: 22px;
@@ -94,8 +122,8 @@
 }
 .course-detail .flip-card {
   background-color: transparent;
-  width: 90%;
-  height: 500px;
+  width: 100%;
+  height: 300px;
   perspective: 1000px;
 }
 
@@ -112,7 +140,9 @@
 .course-detail .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
-
+.mobile .flip-card:hover .flip-card-inner {
+  transform: none;
+}
 .course-detail .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
@@ -125,21 +155,34 @@
   z-index: 2;
   background-color:#fff;
 }
-
+.course-card-details ul {
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+.course-card-details ul li {
+    text-align: center;
+    font-size: 18px;
+    padding: 1rem;
+}
 .course-detail .flip-card-back {
-  background-color: #2980b9;
-  color: white;
+  background-color: #fff;
+  color: #000;
   transform: rotateY(180deg);
   z-index: 1;
 }
+.mobile .flip-card-back {
+  background-color: #fff;
+  color: #000;
+  transform: none !important;
+  z-index: 1;
+}
 .courseimage-cl{
-  height: 188px;
+  height: 98px;
   width: 100%;
   border-radius: 0;
-}
-.course-header-cl{
-  border-top: 1px solid #a2a2a2;
-  height: 80px;
+  margin-top: 50px;
 }
 .card-details{
   padding:20px;
@@ -155,31 +198,85 @@
     font-size: 1.5rem;
     padding: 1rem;
 }
-.card-details ul li:not(:last-child) {
-    border-bottom: 1px solid #eee;
+.course-header-cl{
+  margin-top:50px;
 }
-
+.mobile{
+  display: none;
+}
+.image-align-cl{
+  float:right;
+}
+.course-image-cl {
+    height: 50px;
+    margin-top: 16px;
+    margin-right: 16px;
+}
+.mobile-back-head h3{
+  font-size: 18px;
+  font-weight: 600;
+  margin-top:68px;
+}
+.mobile .flip-card{
+  height: 360px;
+}
 @media(max-width:767px){
   .header-text{
-    text-align: center;
+    text-align: left;
+  }
+  .course-header{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .course-detail{
+    width: 100%;
+    max-width: 100%;
   }
   .course-detail .flip-card{
-    margin-bottom:22px;
+    width:100%;
+    padding-top:60px;
   }
+  .modal-dialog {
+    width: 354px;
+}
+.modal-header .close{
+  width:7%;
+}
+.course-back-cl{
+  padding: 32px 0 470px 0;
+}
+.enroll-btn{
+  margin-left:84px;
+}
+.enroll-btn button{
+  width:130px;
+}
+.desktop{
+  display: none;
+}
+.mobile{
+  display: block;
+}
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .background-cl{
     height: 326px;
     width:100%;
   }
+
   .background-cl img{
     height: 200px;
   }
   .enroll-btn{
-    margin-left:210px;
+    margin-left:192px;
+    margin-top:-42px;
   }
   .course-detail .flip-card{
     width:100%;
-    margin-bottom: 20px;   
+    margin-bottom: 20px;
+    padding-top:22px;
+  }
+  .course-back-cl{
+    padding: 100px 0 446px 0;
   }
 }

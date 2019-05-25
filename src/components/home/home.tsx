@@ -2,8 +2,9 @@ import * as React from 'react';
 import Countdown from '../../components/countdown/countdown';
 import Course from '../../components/course/course';
 import Details from '../../components/details/details';
+// import Signup from '../../components/signup/signup';
 import SocialMedia from '../../components/socialMedia/socialMedia';
-import Story from '../../components/story/story';
+// import Story from '../../components/story/story';
 import Technology from '../../components/technology/technology';
 import Trainers from '../../components/trainers/trainers';
 
@@ -16,7 +17,6 @@ class Home extends React.Component {
     <Course/>
     <Trainers/>
     <Technology/>
-    <Story/>
     <SocialMedia/>
     </div>
     );

@@ -10,7 +10,7 @@ class Footer extends React.Component {
       <a>Cookies Policy</a> |
       <a>Terms of Service</a>
       </div>
-      <p>&copy; Copyright 2019 flipr.com. All rights reserved</p>
+      <p>&copy; Copyright 2019 Flipr.</p>
       </div>
     );
   }

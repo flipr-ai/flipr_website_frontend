@@ -1,23 +1,63 @@
 .socialMedia-cl{
-  background:#ddd;
+  background:#f5fdfb;
   padding-bottom:50px;
+  padding-left:70px;
+  padding-right:70px;
+}
+.socialMedia-cl .contain-cl{
+  width:100%;
+}
+.socialMedia-cl .header-text{
+  width: 100%;
 }
 .socialmedia-link-cl i{
-  font-size: 14px;
+  font-size: 16px;
   color: #fff;
-  background: #000;
+  background: #484848;
   border-radius: 50px;
-  padding: 10px;
+  padding: 15px;
   margin-top: 20px;
-  margin-right:15px;
+  margin-right: 15px;
+  width: 8%;
+  text-align: center;
+}
+.address-cl{
+text-align: right;
+}
+.address-cl h4{
+  font-weight: 600;
 }
 @media(max-width:767px){
   .socialmedia-link-cl{
-    text-align: center;
+    text-align: left;
   }
+  .link-cl a {
+    padding-left: 2px;
+    padding-right: 6px;
+  }
+  .link-cl{
+    font-size:12px;
+  }
+  .footer p{
+    font-weight: 600;
+  }
+  .socialmedia-link-cl i{
+    width: 16%;
+  }
+  .address-cl {
+    text-align: left;
+    margin-top: 40px;
+}
+.socialMedia-cl{
+  padding-left:30px;
+  padding-right:30px;
+}
 }
 @media (min-width: 768px) and (max-width: 991px) {
 .socialmedia-link-cl{
   text-align: center;
+}
+.address-cl{
+  text-align: left;
 }
 }

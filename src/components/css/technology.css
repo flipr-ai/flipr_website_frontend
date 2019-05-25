@@ -1,5 +1,4 @@
 .tech-cl{
-  background: #ddd;
  margin-top:15px;
  padding-bottom:40px;
 }
@@ -9,6 +8,12 @@
 .tech-header{
    margin-top: 30px;
    margin-bottom: 30px;
+   padding-left:70px;
+   width: 100%;
+}
+.tech-card-slider{
+  width:100%;
+  max-width:88%;
 }
 .tech-list-cl{
   margin-bottom:60px;
@@ -20,11 +25,11 @@
   text-align: center;
 }
 .flip-card-back .card-details{
-  padding-top:14px;
+  padding-top:10px;
 }
 .technologyimage-cl {
-    height: 56px;
-    margin-top: 40px;
+    height: 44px;
+    margin-top: 46px;
 }
 .flip-card {
   background-color: transparent;
@@ -62,14 +67,57 @@
   transform: rotateY(180deg);
   z-index: 1;
 }
-
+.carousel-control.left{
+  background-image:none;
+}
+.carousel-control.right{
+  background-image:none;
+}
+#myCarousel{
+  display: none;
+}
 
 @media(max-width:767px){
   .tech-list-cl img{
     margin-bottom:20px;
   }
+  .carousel-indicators .active{
+    background-color:#02c2b2;
+  }
+  #myCarousel{
+    display: block;
+    margin-top:40px;
+    margin-bottom:60px;
+  }
+.tech-card-slider{
+  display: none;
+}
   .tech-list-cl{
     margin-bottom:22px;
+  }
+  .tech-header{
+    padding-left:30px;
+  }
+  .slider-image-cl{
+    width: 100%;
+    max-width: 60% !important;
+    margin: 0 auto;
+    height: 90px !important;
+  }
+  .carousel-indicators{
+    top:130px;
+  }
+  .carousel-indicators li{
+      border: 1px solid #02c2b2;
+      margin-right: 2px;
+      margin-left: 2px;
+  }
+  .carousel-control{
+    color:#02c2b2;
+    opacity: 1;
+  }
+  .carousel-control:focus, .carousel-control:hover{
+    color:#02c2b2;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -80,6 +128,6 @@
     margin-bottom:22px;
   }
   .header-text{
-    text-align: center;
+    text-align: left;
   }
 }

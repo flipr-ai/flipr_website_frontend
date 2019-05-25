@@ -19,15 +19,13 @@ class Technology extends React.Component {
     <div className="tech-cl">
         <div className="container tech-header">
           <div className="row">
-            <div className="col-md-1 gift-img">
-            <i className="fa fa-gift" aria-hidden="true"/>
-            </div>
-            <div className="col-md-11 header-text">
-            <h3>Startups working with these technologies</h3>
+            <div className="col-md-12 header-text">
+            <h3>Startups working on same technologies</h3>
+            <p>Have a look at the startups where these technologies are used extensively. </p>
             </div>
           </div>
           </div>
-          <div className="container">
+          <div className="container tech-card-slider">
           <div className="row technology">
             <div className="col-md-3">
               <div className="flip-card">
@@ -239,6 +237,74 @@ class Technology extends React.Component {
                 </div>
           </div>
       </div>
+
+    <div id="myCarousel" className="carousel slide" data-ride="carousel">
+    <ol className="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" className="active"/>
+    <li data-target="#myCarousel" data-slide-to="1"/>
+    <li data-target="#myCarousel" data-slide-to="2"/>
+    <li data-target="#myCarousel" data-slide-to="3"/>
+    <li data-target="#myCarousel" data-slide-to="4"/>
+    <li data-target="#myCarousel" data-slide-to="5"/>
+    <li data-target="#myCarousel" data-slide-to="6"/>
+    <li data-target="#myCarousel" data-slide-to="7"/>
+    <li data-target="#myCarousel" data-slide-to="8"/>
+    <li data-target="#myCarousel" data-slide-to="9"/>
+    <li data-target="#myCarousel" data-slide-to="10"/>
+    <li data-target="#myCarousel" data-slide-to="11"/>
+    <li data-target="#myCarousel" data-slide-to="12"/>
+    </ol>
+    <div className="carousel-inner">
+    <div className="item active">
+    <img src={Bigbasket} alt="Bigbasket" className="slider-image-cl"/>
+    </div>
+
+    <div className="item">
+    <img src={Curefit} alt="Curefit" className="slider-image-cl"/>
+    </div>
+
+    <div className="item">
+    <img src={Flipkart} alt="Flipkart" className="slider-image-cl"/>
+    </div>
+
+    <div className="item">
+    <img src={Grofers} alt="Grofers" className="slider-image-cl"/>
+    </div>
+
+    <div className="item">
+    <img src={Hike} alt="Hike" className="slider-image-cl"/>
+    </div>
+
+    <div className="item">
+    <img src={Inmobi} alt="Inmobi" className="slider-image-cl"/>
+    </div>
+
+    <div className="item">
+    <img src={Ola} alt="Ola" className="slider-image-cl"/>
+    </div>
+
+    <div className="item">
+    <img src={Paytm} alt="Paytm" className="slider-image-cl"/>
+    </div>
+
+    <div className="item">
+    <img src={Policybazar} alt="Policybazar" className="slider-image-cl"/>
+    </div>
+
+    <div className="item">
+    <img src={Practo} alt="Practo" className="slider-image-cl"/>
+    </div>
+
+    <div className="item">
+    <img src={Rivigo} alt="Rivigo" className="slider-image-cl"/>
+    </div>
+
+    <div className="item">
+    <img src={Zomato} alt="Zomato" className="slider-image-cl"/>
+    </div>
+    </div>
+    </div>
+
     </div>
     );
   }

@@ -3,17 +3,21 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Cache-Control" content="no-store" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="./jquery-1.11.1.min.js"></script>
+    <link href="//db.onlinewebfonts.com/c/112202b68607ab6126508964268c8c0e?family=HansomFYW01-Regular" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/ce857f6c437ac98353de7b4175916a1c?family=HansomFYW01-Bold" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/119bc8b41e7daaeccb794ff72107dbbb?family=HansomFYW01-Light" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Flipr</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <link href="./jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <title>Flipr | Get Where You Belong</title>
   </head>
   <body>
-    <noscript>
-      You need to enable JavaScript to run this app.
+    <noscript>Flipr | Get Where You Belong
     </noscript>
     <div id="root"></div>
     <!--
@@ -26,6 +30,25 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
 
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#config-web-app -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyAu-OXj7gvInR_OVoLTWmMCDsdT2kJLsQ4",
+        authDomain: "flipr-d6d95.firebaseapp.com",
+        databaseURL: "https://flipr-d6d95.firebaseio.com",
+        projectId: "flipr-d6d95",
+        storageBucket: "flipr-d6d95.appspot.com",
+        messagingSenderId: "103323551372",
+        appId: "1:103323551372:web:edc84c394df01a95"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
   </body>
 </html>

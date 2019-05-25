@@ -1,10 +1,83 @@
 .header-text p{
     margin-left:4px;
+    font-size: 20px;
+}
+.header-text h3{
+  font-size: 26px;
+  font-weight: 600;
 }
 .detail-cl{
-   text-align: center;
-   margin-top:30px;
+   margin-top:60px;
+   margin-bottom: 60px;
+   width: 100%;
 }
 .detail-header{
    margin-top: 30px;
+   margin-bottom:-60px;
+   width: 100%;
+   padding-left:70px;
+   padding-right:70px;
+}
+.detail-cl h5{
+  font-size: 20px;
+  font-weight: bold;
+  color:#4a4a4a;
+  margin-top:34px;
+}
+.detail-cl p{
+  color:#4a4a4a;
+  margin-top:22px;
+  line-height: 1.5;
+}
+.detail-cl .col-md-4{
+  width: 290px;
+}
+.detail-cl img{
+  height: 92px;
+}
+.oval-image{
+  margin-top:15px;
+  width: 32px;
+}
+.yellow-oval{
+  margin-top: 100px;
+  position: absolute;
+  margin-left: -24px;
+}
+.pink-cl{
+  float:right;
+}
+.pink-oval{
+  height: 16px;
+  margin-top: 30px;
+  margin-right: 70px;
+}
+@media(max-width:767px){
+.detail-cl{
+  text-align:left;
+  margin-top:30px;
+}
+.pink-cl{
+  display: none;
+}
+.detail-cl .col-md-4{
+  margin-bottom:40px;
+}
+.detail-header{
+  padding-left:30px;
+  padding-right:30px;
+  margin-top:0;
+  margin-bottom: -54px;
+  text-align: left;
+}
+.detail-header h3{
+  font-size:20px;
+  font-weight: 600;
+  margin-bottom:24px;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.detail-cl{
+  text-align: left;
+}
 }
